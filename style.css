@@ -1,0 +1,49 @@
+body {
+    background-image: url('assets/images/fondo.png'); 
+    background-size: cover;
+    background-position: 30% center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: white;
+    text-align: center; 
+    font-family: serif;
+}
+
+div {
+    backdrop-filter: blur(7px);
+    width: 100%;
+    padding: none;
+    background: #0000;
+}
+
+ 
+button, input, select {
+    background: linear-gradient(to right, #fff8, #0000, #0000);
+    background-size: 200% 100%;  
+    background-position: right center;  
+    transition: background-position 0.5s ease; 
+    text-align: left; 
+    color: white;
+    width: 100%;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-position: left center;  
+}

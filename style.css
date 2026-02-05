@@ -1,11 +1,11 @@
 body {
+    background-color: #000;
     background-image: url('assets/images/fondo.png'); 
     background-size: cover;
     background-position: 30% center;
     background-repeat: no-repeat;
     height: 100vh;
     margin: 0;
-    background-color: #000;
 }
 
 * {

@@ -1,8 +1,8 @@
 body {
     background-image: url('assets/images/fondo.png'); 
-    background-size: wrap;
+    background-size: cover;
     background-position: 30% center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     height: 100vh;
     margin: 0;
 }

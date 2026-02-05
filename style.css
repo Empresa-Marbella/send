@@ -43,7 +43,7 @@ button, input, select {
     padding: 20px;
     border: none;
     cursor: pointer;
-    margin: none;
+    margin: 0px, 0px;
 }
 
 button:hover {

@@ -13,7 +13,7 @@ function enviarCorreo() {
                    `• Cliente: ${nombre}\n` +
                    `• Material solicitado: ${material}\n` +
                    `• Cantidad: ${cantidad}\n` +
-                   `• Lugar de entrega: ${lugar}` +
+                   `• Lugar de entrega: ${lugar}\n` +
                    `Enviado en ${new Date()}`;
 
     const cuerpoCodificado = encodeURIComponent(cuerpo);
@@ -35,7 +35,7 @@ function enviarSMS() {
                    `• Cliente: ${nombre}\n` +
                    `• Material solicitado: ${material}\n` +
                    `• Cantidad: ${cantidad}\n` +
-                   `• Lugar de entrega: ${lugar}` +
+                   `• Lugar de entrega: ${lugar}\n` +
                    `Enviado en ${new Date()}`;
 
     const cuerpoCodificado = encodeURIComponent(cuerpo);

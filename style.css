@@ -51,3 +51,8 @@ button, input, select {
 button:hover {
     background-position: left center;  
 }
+
+span {
+    color: white;
+    margin: 8px;
+}
